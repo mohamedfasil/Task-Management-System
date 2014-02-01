@@ -1,0 +1,48 @@
+#task-management-container{
+	margin-top:70px;
+}
+.inline{
+	display: inline;
+}
+.block{
+	display: block;overflow: auto;
+}
+.task-list-holder{
+	margin-top: 20px;
+	.lists{
+		.list-block{
+			margin: 10px 0;overflow: auto;
+			background: white;
+			padding: 10px;
+			.small-input{
+				padding: 2px;
+				width: 212px;
+				margin-bottom: 0;
+				border-top-right-radius: 0;
+				border-bottom-right-radius: 0;
+			}
+			.btn-small{
+				border-top-left-radius: 0;
+				border-bottom-left-radius: 0;	
+			}
+			&.moving{
+				border: 2px dotted #ccc;
+			}
+		}
+	}
+}
+.new-task-holder{
+	margin-top:20px;
+	input[type="text"]{
+		width: 205px;padding: 4px;margin-bottom: 0;
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+	input[type="submit"]{
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;	
+	}
+}
+#add-new-button-holder{
+	margin: 20px;
+}
